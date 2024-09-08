@@ -33,7 +33,7 @@ def grayscale_threshold_and_count(image_path, threshold):
 
 # Example usage
 image_path = r"C:\Users\Asus\Desktop\TDR\iad_photo.jpeg"  # Replace with the actual path to your image
-threshold_value = 220  # Adjust the threshold value as needed
+threshold_value = 128  # Adjust the threshold value as needed
 
 white_count, black_count = grayscale_threshold_and_count(image_path, threshold_value)
 print("Number of white pixels:", white_count)
